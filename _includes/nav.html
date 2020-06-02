@@ -1,0 +1,47 @@
+<!-- Navigation -->
+<header class="masthead mb-5">
+    <div class="inner">
+        <h3 class="masthead-brand">
+            <img src="{{ site.url }}/img/ccisel.png" alt="" width="72" height="72">
+            CCISEL
+        </h3>
+        <nav class="nav nav-masthead justify-content-center">
+                {% if page.url == "/" %}
+                    <a class="nav-link active"  href="{{ site.url }}">
+                {% else %}
+                    <a class="nav-link"  href="{{ site.url }}">
+                {% endif %}
+                    Home
+                </a>
+
+                {% if page.url == "/people/" %}
+                    <a class="nav-link active"  href="{{ site.url }}/people">
+                {% else %}
+                    <a class="nav-link"  href="{{ site.url }}/people">
+                {% endif %}
+                    People
+                </a>
+
+                {% if page.url == "/news/"%}
+                    <a class="nav-link active"  href="{{ site.url }}/news">
+                {% else %}
+                    <a class="nav-link"  href="{{ site.url }}/news">
+                {% endif %}
+                    News
+                </a>
+
+                {% if page.url == "/contacts/"%}
+                    <a class="nav-link active"  href="{{ site.url }}/contacts">
+                {% else %}
+                    <a class="nav-link"  href="{{ site.url }}/contacts">
+                {% endif %}
+                    Contacts
+                </a>
+
+            <a class="nav-link" href="#"></a>
+            
+            &nbsp;&nbsp;
+            <a href="/feed.xml"><img src="{{ site.url }}/img/feed.png" width="27px"></a>
+        </nav>
+    </div>
+</header>

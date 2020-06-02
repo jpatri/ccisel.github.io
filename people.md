@@ -1,0 +1,205 @@
+---
+layout: default
+title: "People"
+description: "CCISEL engineers"
+---
+
+<table id="tabelaMembros" class="tablesorter" style="width: 100%;" border="0" cellspacing="1">
+<thead>
+<tr>
+<th class="header">Nome</th>
+<th class="header">eMail</th>
+<th class="header">Gabinete</th>
+<th class="header">Telefone</th>
+<th class="header">Extensão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a title="Artur Ferreira" href="http://pwp.net.ipl.pt/cc.isel/arturj/">Artur Ferreira</a></td>
+<td><code><strong>arturj</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.21</td>
+<td>21 831 7196</td>
+<td>1421</td>
+</tr>
+<tr>
+<td><a title="Carlos Guedes" href="http://cguedes.net">Carlos Guedes</a></td>
+<td><code><strong>cguedes</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.06</td>
+<td>21 831 7096</td>
+<td>1406</td>
+</tr>
+<tr>
+<td>Carlos Martins</td>
+<td><code><strong>cmartins</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>Ed.F gab.23</td>
+<td>21 831 7223</td>
+<td>1523</td>
+</tr>
+<tr>
+<td><a href="http://pwp.net.ipl.pt/cc.isel/cvaz/" target="_blank">Cátia Vaz</a></td>
+<td><code><strong>cvaz</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.21</td>
+<td>21 831 7196</td>
+<td>1407</td>
+</tr>
+<tr>
+<td><a title="David Pereira Coutinho" href="https://cc.isel.ipl.pt/membros/paginas-pessoais/david-pereira-coutinho/">David Coutinho</a></td>
+<td><code><strong>davidpc</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>Ed.F gab.16</td>
+<td>21 831 7216</td>
+<td>1516</td>
+</tr>
+<tr>
+<td>Ezequiel Conde</td>
+<td><code><strong>ezeq</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.17</td>
+<td>21 831 7186</td>
+<td>1417</td>
+</tr>
+<tr>
+<td>Fernado Sousa</td>
+<td><code><strong>fsousa</strong>[*]<strong>isel</strong>.[#]</code></td>
+<td>CCISEL gab.10</td>
+<td></td>
+<td>1410</td>
+</tr>
+<tr>
+<td>Filipe Freitas</td>
+<td><code><strong>ffreitas</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.08</td>
+<td>21 831 7036</td>
+<td>1408</td>
+</tr>
+<tr>
+<td>Hernâni Mergulhão</td>
+<td><code><strong>hernani</strong>[*]<strong>isel</strong>.[#]</code></td>
+<td>CCISEL gab.03</td>
+<td></td>
+<td>1403</td>
+</tr>
+<tr>
+<td>João Patriarca</td>
+<td><code><strong>jpatri</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.17</td>
+<td>21 831 7186</td>
+<td>1417</td>
+</tr>
+<tr>
+<td>João Trindade</td>
+<td><code><strong>jtrindade</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.15</td>
+<td>21 831 7150</td>
+<td>1415</td>
+</tr>
+<tr>
+<td>Jorge Martins</td>
+<td><code><strong>jmartins</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.15</td>
+<td>21 831 7150</td>
+<td>1415</td>
+</tr>
+<tr>
+<td><a href="https://cc.isel.ipl.pt/jose-simao/" target="_blank">José M. Simão</a></td>
+<td><code><strong>jsimao</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.20</td>
+<td></td>
+<td>1420</td>
+</tr>
+<tr>
+<td>José Paraiso</td>
+<td><code><strong>paraiso</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.12</td>
+<td></td>
+<td>1412</td>
+</tr>
+<tr>
+<td>Luís Falcão</td>
+<td><code><strong>lfalcao</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.11</td>
+<td>21 831 7067</td>
+<td>1411</td>
+</tr>
+<tr>
+<td>Manuela Sousa</td>
+<td><code><strong>manuela</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.04</td>
+<td>21 831 7094</td>
+<td>1404</td>
+</tr>
+<tr>
+<td>Mário C. Simões</td>
+<td><code><strong>msimoes</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.16</td>
+<td>21 831 7184</td>
+<td>1416</td>
+</tr>
+<tr>
+<td><a href="http://fmcarvalho.wordpress.com/about/">Miguel Carvalho</a></td>
+<td><code><strong>mcarvalho</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.07</td>
+<td>21 831 7190</td>
+<td>1407</td>
+</tr>
+<tr>
+<td><a href="http://pwp.net.ipl.pt/cc.isel/nleite/index.html" target="_blank">Nuno M. Leite</a></td>
+<td><code><strong>nleite</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.10</td>
+<td></td>
+<td>1410</td>
+</tr>
+<tr>
+<td><a href="https://cc.isel.ipl.pt/Pessoais/Datia/">Nuno Datia</a></td>
+<td><code><strong>datia</strong>[*]<strong>isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.19</td>
+<td>21 831 7119</td>
+<td>1419</td>
+</tr>
+<tr>
+<td>Paulo Pereira</td>
+<td><code><strong>palbp</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.14</td>
+<td></td>
+<td>1414</td>
+</tr>
+<tr>
+<td>Pedro Félix</td>
+<td><code><strong>pedrofelix</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.20</td>
+<td></td>
+<td>1420</td>
+</tr>
+<tr>
+<td>Pedro Sampaio</td>
+<td><code><strong>psampaio</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.13</td>
+<td>21 831 7192</td>
+<td>1413</td>
+</tr>
+<tr>
+<td><a title="Pedro Miguens" href="https://cc.isel.ipl.pt/membros/paginas-pessoais/pedro-miguens/">Pedro Miguens</a></td>
+<td><code><strong>pmiguens</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.13</td>
+<td>21 831 7192</td>
+<td>1413</td>
+</tr>
+<tr>
+<td><a href="https://cc.isel.ipl.pt/pedro-pereira/">Pedro Pereira</a></td>
+<td><code><strong>palex</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.08</td>
+<td>21 831 7036</td>
+<td>1408</td>
+</tr>
+<tr>
+<td>Tiago Dias</td>
+<td><code><strong>tdias</strong>[*]<strong>cc.isel.ipl</strong>.[#]</code></td>
+<td>CCISEL gab.16</td>
+<td>21 831 7184</td>
+<td>1416</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+### Former engineers
