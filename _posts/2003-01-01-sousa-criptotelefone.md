@@ -8,9 +8,9 @@ status: publish
 categories: []
 tags: []
 author:
-  login: palex
+  login: sousa
   email: 
-  display_name: Pedro Pereira
+  display_name: Fernando Sousa
   
 ---
 
