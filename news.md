@@ -4,7 +4,7 @@ title: "News"
 description: "Change log and other updates"
 ---
 
-{% for post in site.posts limit:7 %}
+{% for post in site.posts limit:8 %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h5 class="post-title">

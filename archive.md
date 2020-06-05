@@ -4,7 +4,7 @@ title: "Archive"
 description: "Change log and other updates"
 ---
 
-{% for post in site.posts offset:7 %}
+{% for post in site.posts offset:8 %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h5 class="post-title">
