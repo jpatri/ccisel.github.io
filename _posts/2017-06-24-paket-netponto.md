@@ -14,5 +14,5 @@ author:
   
 ---
 
-Pedro Félix presented the session ".NET Dependency Management with Paket" at the NetPonto Lisbon event.
+Pedro Félix presented the session _.NET Dependency Management with Paket_ at the NetPonto Lisbon community event.
 The video is available [here](https://www.youtube.com/watch?v=YGCBaAM7Fas).
