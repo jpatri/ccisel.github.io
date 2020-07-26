@@ -14,6 +14,6 @@ author:
   
 ---
 
-Sistema para controlo de fornos – desenvolvimento de um sistema informático para
-controlo de fornos para cerâmica, configurável e com possibilidade de utilização
-remota por vários utilizadores.
+System for controlling industrial kilns for ceramics - development of a computer 
+system for ceramic kiln control, configurable and with the possibility of remote 
+use by several users.
