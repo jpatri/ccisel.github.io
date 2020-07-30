@@ -24,15 +24,15 @@ did we move from Java to Kotlin? Why not some other language instead?
 
 We have been using the Java language since 2005, given the importance of the
 Java platform in the software industry. That importance is still indisputable.
-The JVM is targeted by numerous programming languages [1][2] and the Java
-language is one of the most widely used [3][4]. The Java ecosystem, i.e. tools
+The JVM is targeted by numerous programming languages [[1](https://en.wikipedia.org/wiki/Java_(software_platform)#Languages)][[2](https://en.wikipedia.org/wiki/List_of_JVM_languages)] and the Java
+language is one of the most widely used [[3](https://www.jetbrains.com/lp/devecosystem-2019/)][[4](https://insights.stackoverflow.com/survey/2019?#technology)]. The Java ecosystem, i.e. tools
 and frameworks, is vast and comprehensive: it is relevant both on the
-server-side and on the client-side. [1]
+server-side and on the client-side. [[1](https://en.wikipedia.org/wiki/Java_(software_platform)#Languages)]
 
 Yet we should not mistake the platform for the language. The platform’s current
 relevance is not determined by the language’s relevance, which has been
-criticized almost since its inception. [2][3] Despite the criticisms, the
-importance of the language is undeniable. [3][4] But even more relevant than the
+criticized almost since its inception. [[2](https://en.wikipedia.org/wiki/List_of_JVM_languages)][[3](https://www.jetbrains.com/lp/devecosystem-2019/)] Despite the criticisms, the
+importance of the language is undeniable. [[3](https://www.jetbrains.com/lp/devecosystem-2019/)][[4](https://insights.stackoverflow.com/survey/2019?#technology)] But even more relevant than the
 language itself, however, is Java’s ecosystem and particularly the JVM. The
 number of languages that target it is a clear testimonial.
 
@@ -76,7 +76,7 @@ public class App {
 
 It requires a great deal of goodwill to be able to see the message that should
 be conveyed to the students when the program is presented. Let’s now look at the
-same program, written in Kotlin [5]:
+same program, written in Kotlin [[5](https://kotlinlang.org/)]:
 
 <pre><code class="language-java">
 fun main() {
@@ -87,14 +87,14 @@ fun main() {
 The difference is obvious. The problem is that the Java language was designed
 with the assumption that functions must always be defined in the context of a
 type definition, be it a class or an interface (the sacrifice of verbs to nouns,
-so brilliantly described here [3]). This cannot be explained to an apprentice
+so brilliantly described here [[6](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)]. This cannot be explained to an apprentice
 unless it’s seen from a 90’s perspective, which is not useful at this early
 stage of learning.
 
-Considering the increasing credibility and popularity [3][4] of the Kotlin
+Considering the increasing credibility and popularity [[3](https://www.jetbrains.com/lp/devecosystem-2019/)][[4](https://insights.stackoverflow.com/survey/2019?#technology)] of the Kotlin
 programming language, and because it fully meets our requirements, its selection
 became natural. We also have been using it in several LEIC courses, namely: in
-Mobile Devices Programming since 2016 and in Web Application Development since
+[Mobile Devices Programming](https://www.isel.pt/en/subjects/mobile-devices-programming-leic) since 2016 and in [Web Application Development](https://www.isel.pt/en/subjects/web-application-development-leic) since
 2018.
 
 And there you go: next semester, newcomers to our beloved craft will be greeted
