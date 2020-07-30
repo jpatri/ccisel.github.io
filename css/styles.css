@@ -933,6 +933,15 @@ a:focus {
   background: #1a1a1a;
 }
 
+.team-section .social a.twitch {
+  background: #7d22fe;
+}
+
+.team-section .social a.discord {
+  background: #3c53f2;
+}
+
+
 .team-section .social a.medium:hover {
   background: #000;
 }
