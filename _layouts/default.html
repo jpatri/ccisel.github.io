@@ -4,14 +4,32 @@
 {% include head.html %}
 
 <body>
-    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <!-- <div class="hero-wrapper"> -->
+    <div>
+		<div class="curve-container">
+			<div class="curve-top"></div>
+			<div class="curve-bottom"></div>
+        </div><!--//curve-container-->
         {% include nav.html %}
-        <main role="main" class="inner cover">
-            {{ content }}
-        </main>
-        {% include footer.html %}
-    </div>
+		<section class="hero-section over-curve pt-5 py-md-5">
+			<div class="container">
+				<div class="hero-content-holder z-index-10 position-relative">
+                    {{ content }}
+				</div>
+            </div><!--//container-->
+            {% include footer.html %}
+        </section><!--//logos-section-->   
+    </div><!--//hero-wrapper-->
     <script src="{{ site.url }}/js/prism.js"></script>
     <script async defer src="{{ site.url }}/js/buttons.js"></script>
+    
+    <!-- Javascript -->          
+	<script src="{{ site.url }}/js/jquery-3.4.1.min.js"></script>
+	<script src="{{ site.url }}/js/popper.min.js"></script>
+	<script src="{{ site.url }}/js/bootstrap.min.js"></script>  
+	
+	<!-- Page Specific JS -->
+	<script src="{{ site.url }}/js/tiny-slider.js"></script> 
+	<script src="{{ site.url }}/js/tinyslider-custom.js"></script> 
 </body>
 </html>
