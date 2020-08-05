@@ -1,17 +1,19 @@
 ---
 layout: post
 title: OAuth 2.0 and PKCE
+image: 2020-06-19-felix-oauth-pkce.png
 date: 2020-06-19
 type: post
 published: true
 status: publish
-categories: []
+category: Security
 tags: []
 author:
   login: pmhfelix
   email: 
   display_name: Pedro Félix
-  
+  image: felix.jpg
+  role: Software Developer
 ---
 
 The current

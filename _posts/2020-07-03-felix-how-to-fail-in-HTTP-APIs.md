@@ -1,16 +1,19 @@
 ---
 layout: post
 title: How to fail in HTTP APIs
+image: 2020-07-03-felix-how-to-fail-in-HTTP-APIs.png
 date: 2020-07-03
 type: post
 published: true
 status: publish
-categories: []
+category: HTTP APIs
 tags: []
 author:
   login: pmhfelix
   email: 
   display_name: Pedro Félix
+  image: felix.jpg
+  role: Software Developer
   
 ---
 

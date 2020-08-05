@@ -6,13 +6,14 @@ date: 2020-07-24
 type: post
 published: true
 status: publish
-categories: []
+category: Template Engines and DSL
 tags: [Java, async, CompletableFuture, Task, Promise, Kotlin]
 author:
   login: miguelgamboa
   email: 
   display_name: Miguel Gamboa
-  
+  image: miguel.jpg
+  role: Software Developer
 ---
 
 Using server-side Web templating to render an HTML listing with 1000 records
