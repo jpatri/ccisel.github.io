@@ -6,6 +6,7 @@ description: "Change log and other updates"
 
 <section class="hero-section over-curve pt-5 py-md-5">
     <div class="container">
+        <h1 class="page-headline text-center mb-5">Archive</h1>
         <div class="hero-content-holder z-index-10 position-relative">
             {% for post in site.posts offset:9 %}
             <div class="post-preview">
