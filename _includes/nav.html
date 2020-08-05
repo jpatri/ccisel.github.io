@@ -1,55 +1,81 @@
 <!-- Navigation -->
-<header class="masthead mb-5">
-    <div class="inner">
-        <h3 class="masthead-brand">
-            <img src="{{ site.url }}/img/ccisel.png" alt="" width="72" height="72">
-            CCISEL
-        </h3>
-        <nav class="nav nav-masthead justify-content-center">
-                {% if page.url == "/" %}
-                    <a class="nav-link active"  href="{{ site.url }}">
-                {% else %}
-                    <a class="nav-link"  href="{{ site.url }}">
-                {% endif %}
-                    Home
-                </a>
+<header class="header">	    
+    <div class="branding">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg" >                
+                <div class="site-logo mr-5">
+                    <a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="{{ site.url }}/img/ccisel.png" alt="logo"  width="72" height="72">
+                    </a>
+                    CCISEL
+                </div>    
+    
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </button>
+                
+                <div class="collapse navbar-collapse pt-3 pt-lg-0 " id="navigation">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item mr-lg-8">
+                            {% if page.url == "/" %}
+                                <a class="nav-link active"  href="{{ site.url }}">
+                            {% else %}
+                                <a class="nav-link"  href="{{ site.url }}">
+                            {% endif %}
+                                Home
+                            </a>
+                        </li>
+        
+                        <li class="nav-item mr-lg-8">
+                            {% if page.url == "/team/" %}
+                                <a class="nav-link active"  href="{{ site.url }}/team">
+                            {% else %}
+                                <a class="nav-link"  href="{{ site.url }}/team">
+                            {% endif %}
+                                Team
+                            </a>
+                        </li>
+        
+                        <li class="nav-item mr-lg-8">
+                            {% if page.url == "/news/"%}
+                                <a class="nav-link active"  href="{{ site.url }}/news">
+                            {% else %}
+                                <a class="nav-link"  href="{{ site.url }}/news">
+                            {% endif %}
+                                News
+                            </a>
+                        </li>
+        
+                        <li class="nav-item mr-lg-8">
+                            {% if page.url == "/archive/"%}
+                                <a class="nav-link active"  href="{{ site.url }}/archive">
+                            {% else %}
+                                <a class="nav-link"  href="{{ site.url }}/archive">
+                            {% endif %}
+                                Archive
+                            </a>
+                        </li>
+        
+                        <li class="nav-item mr-lg-8">
+                            {% if page.url == "/contacts/"%}
+                                <a class="nav-link active"  href="{{ site.url }}/contacts">
+                            {% else %}
+                                <a class="nav-link"  href="{{ site.url }}/contacts">
+                            {% endif %}
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                    &nbsp;&nbsp;
+                    <a href="/feed.xml"><img src="{{ site.url }}/img/feed.png" width="27px"></a>
+        
+                </div>
+            </nav>                        
+        </div><!--//container-->
+    </div><!--//branding-->
+</header><!--//header-->
 
-                {% if page.url == "/people/" %}
-                    <a class="nav-link active"  href="{{ site.url }}/people">
-                {% else %}
-                    <a class="nav-link"  href="{{ site.url }}/people">
-                {% endif %}
-                    People
-                </a>
 
-                {% if page.url == "/news/"%}
-                    <a class="nav-link active"  href="{{ site.url }}/news">
-                {% else %}
-                    <a class="nav-link"  href="{{ site.url }}/news">
-                {% endif %}
-                    News
-                </a>
-
-                {% if page.url == "/archive/"%}
-                    <a class="nav-link active"  href="{{ site.url }}/archive">
-                {% else %}
-                    <a class="nav-link"  href="{{ site.url }}/archive">
-                {% endif %}
-                    Archive
-                </a>
-
-                {% if page.url == "/contacts/"%}
-                    <a class="nav-link active"  href="{{ site.url }}/contacts">
-                {% else %}
-                    <a class="nav-link"  href="{{ site.url }}/contacts">
-                {% endif %}
-                    Contacts
-                </a>
-
-            <a class="nav-link" href="#"></a>
-            
-            &nbsp;&nbsp;
-            <a href="/feed.xml"><img src="{{ site.url }}/img/feed.png" width="27px"></a>
-        </nav>
-    </div>
-</header>
