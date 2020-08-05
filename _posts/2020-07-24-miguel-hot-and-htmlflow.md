@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unleash Web Views with Higher-order Templates - HtmlFlow
+image: 2020-07-24-miguel-hot-and-htmlflow.png
 date: 2020-07-24
 type: post
 published: true
@@ -27,5 +28,5 @@ a demo ([http://topgenius.eu](http://topgenius.eu)) comparing 3 different approa
 (server-side), React (front-end) and HtmlFlow (Java DSL for HTML).
 
 <a href="https://htmlflow.org">
-  <img src="/assets/htmlflow.png" width="720px">
+  <img src="/assets/blog/2020-07-24-miguel-hot-and-htmlflow.png" width="720px">
 </a>

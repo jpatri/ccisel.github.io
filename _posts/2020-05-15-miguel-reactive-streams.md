@@ -1,6 +1,7 @@
 ---
 layout: post
 title: From Iterator to Reactive Streams
+image: 2020-05-15-miguel-reactive-streams.png
 date: 2020-05-15
 type: post
 published: true
@@ -22,5 +23,5 @@ Modeling in nowadays.
 See how the old fashioned Iterator pattern relates with the state-of-the-art reactive streams.
 
 <a href="https://github.com/javasync/idioms">
-  <img src="/assets/from-iterator-to-rx.png" width="720px">
+  <img src="/assets/blog/2020-05-15-miguel-reactive-streams.png" width="720px">
 </a>
