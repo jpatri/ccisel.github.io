@@ -6,20 +6,17 @@
 <body>
     <!-- <div class="hero-wrapper"> -->
     <div>
+		<!--
 		<div class="curve-container">
 			<div class="curve-top"></div>
 			<div class="curve-bottom"></div>
-        </div><!--//curve-container-->
+		</div>
+		-->
         {% include nav.html %}
-		<section class="hero-section over-curve pt-5 py-md-5">
-			<div class="container">
-				<div class="hero-content-holder z-index-10 position-relative">
-                    {{ content }}
-				</div>
-            </div><!--//container-->
-            {% include footer.html %}
-        </section><!--//logos-section-->   
-    </div><!--//hero-wrapper-->
+		{{ content }}
+	</div><!--//hero-wrapper-->
+	{% include footer.html %}
+	
     <script src="{{ site.url }}/js/prism.js"></script>
     <script async defer src="{{ site.url }}/js/buttons.js"></script>
     

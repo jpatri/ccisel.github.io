@@ -1,16 +1,19 @@
 ---
 layout: post
 title: Stretching Async/Await With Lambdas
+image: 2020-07-10-miguel-async-await.png
 date: 2020-07-09
 type: post
 published: true
 status: publish
-categories: []
+category: Concurrent Programming
 tags: [Java, async, CompletableFuture, Task, Promise, Kotlin]
 author:
   login: miguelgamboa
   email: 
   display_name: Miguel Gamboa
+  image: miguel.jpg
+  role: Software Developer
   
 ---
 

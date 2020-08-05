@@ -1,17 +1,19 @@
 ---
 layout: post
 title: Java versus C# asynchronous abstractions
+image: 2020-06-26-java-async-abstraction.png
 date: 2020-06-26
 type: post
 published: true
 status: publish
-categories: []
+category: Concurrent Programming
 tags: [Java, async, CompletableFuture, Task]
 author:
   login: miguelgamboa
   email: 
   display_name: Miguel Gamboa
-  
+  image: miguel.jpg
+  role: Software Developer
 ---
 
 Do you know the difference between the behavior of the two code snippets that

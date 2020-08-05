@@ -1,17 +1,19 @@
 ---
 layout: post
 title: Spliterator is not only about parallelism
+image: 2020-06-05-miguel-spliterator.png
 date: 2020-06-05
 type: post
 published: true
 status: publish
-categories: []
+category: Java Streams
 tags: []
 author:
   login: fmcarvalho
   email: 
   display_name: Miguel Gamboa
-  
+  image: miguel.jpg
+  role: Software Developer
 ---
 
 Many are still mistaken about the purpose of `Spliterator`. 
