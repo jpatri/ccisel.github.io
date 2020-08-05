@@ -6,7 +6,7 @@ description: "Change log and other updates"
 
 <section class="blog-list-section py-5">
   <div class="container">
-    <h1 class="page-headline text-center mb-5">Blog</h1>
+    <h1 class="page-headline text-center mb-5">News</h1>
     <div class="row">
       {% for post in site.posts limit:9 %}
       <div class="col-12 col-lg-4 mb-5">
