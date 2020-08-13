@@ -33,5 +33,5 @@ research fellowship. **Be alert!**
 Simply put, the WebFluid project aims to optimize data flows on the Web between
 services and applications through the elision of blocking IO operations. The
 main goal is to ensure a reactive flow (non-blocking) from: 1) a data source, 2)
-traversing several Web services transformations, 3) to the production of an end
+traversing several Web services transformations, 3) to the emission of the end
 user-interface in HTML.
