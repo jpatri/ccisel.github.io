@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Reactive streams: a play in multiple acts"
+image: 2020-05-01-felix-rx-a-play-in-multiple-acts.png
 date: 2020-05-01
 type: post
 published: true
@@ -22,5 +23,5 @@ and data flow:
 
 
 <a href="https://blog.pedrofelix.org/2020/02/04/reactive-streams-a-play-in-multiple-acts/">
-  <img src="/assets/rx-data-flow.png" width="400px">
+  <img src="/assets/blog/2020-05-01-felix-rx-a-play-in-multiple-acts.png" width="400px">
 </a>

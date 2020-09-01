@@ -1,17 +1,19 @@
 ---
 layout: post
 title: How coroutines can be used for asynchronous and concurrent programming with Kotlin?
+image: 2020-05-29-feix-ndc19-oporto.png
 date: 2020-05-29
 type: post
 published: true
 status: publish
-categories: []
+category: Concurrent Programming
 tags: []
 author:
   login: pmhfelix
   email: 
   display_name: Pedro Félix
-  
+  image: felix.jpg
+  role: Software Developer
 ---
 
 In this video ([https://lnkd.in/grwT3WQ](https://lnkd.in/grwT3WQ)) from last year’s NDC Porto conference,

@@ -4,17 +4,74 @@ title: "Index"
 description: "CCISEL"
 ---
 
-<h3 class="cover-heading">
-  R&D lab in computer and software engineering
-</h3>
-<p>
-  The CCISEL (ISEL <em>Centro de Cálculo</em>) was founded as an autonomous
-  organization in 1975, and was responsible for promoting ISEL in the study of
-  digital systems, microprocessors and computer science and engineering. Our
-  activities are carried out in three core areas:  
-  <ul>
-    <li>Expertise advisory, research and development</li>
-    <li>Technological training courses</li>
-    <li>Pedagogical activity</li>
-  </ul>
-</p>
+<section class="contact-header page-header over-curve py-4 py-md-5">
+  <div class="container">	
+    <div class="contact-card-box p-5 shadow rounded page-tagline mb-4 h-100">
+      <h3 class="mb-3">
+        R&D lab in computer and software engineering
+      </h3>
+
+      The CCISEL (ISEL <em>Centro de Cálculo</em>) was founded as an autonomous
+      organization in 1975, and was responsible for promoting ISEL in the study of
+      digital systems, microprocessors and computer science and engineering. Our
+      activities are carried out in three core areas:  
+      <ul>
+        <li>Expertise advisory, research and development</li>
+        <li>Technological training courses</li>
+        <li>Pedagogical activity</li>
+      </ul>
+    </div>
+  </div><!--//container-->
+</section>
+
+<!-- <section class="reviews-section py-5 theme-bg-light position-relative">-->
+<section class="reviews-section py-5 theme-bg-light position-relative">
+  <div class="text-center"><a href="/news" class="btn-gradient btn">More news...</a></div>
+  <div class="container py-5">
+    <div class="featured-blog-posts">
+      <div class="slider-container text-center">
+        <div class="featured-slider tiny-slider">
+          {% for post in site.posts limit:5 %}
+          <div class="item">
+            <a class="item-link d-block" href="{{ post.url | prepend: site.baseurl }}">
+              <div class="row">
+                <div class="col-12 col-lg-6 order-lg-1">
+                    <img class="img-fluid" src="/assets//blog/{{ post.image }}" alt="" style="position: relative; top: 50%; transform: translateY(-50%);">
+                </div><!--//col-12-->
+                <div class="col-12 col-lg-6 order-lg-0">
+                  <div class="content-box p-5 text-left">
+                    <div class="post-type mb-2">
+                      <span class="font-weight-bold text-primary">{{ post.category }}</span>
+                    </div><!--//post-type-->
+                    <h4 class="post-title mb-3">{{ post.title }}</h4>
+                    <div class="post-excerpt mb-3">{{ post.content | strip_html | truncatewords:32 }}</div>
+                    <div class="post-author">
+                      <div class="row">
+                        <div class="col-12 col-lg-2">
+                          <div class="profile mb-3"><img class="profile-image img-fluid" src="/assets/team/{{ post.author.image }}" alt=""></div>
+                        </div><!--col-12-->
+                        <div class="col-12 col-lg-10 pt-1">
+                          <div class="name font-weight-bold">{{ post.author.display_name }}</div>
+                          <div class="meta">{{ post.author.role }}</div>
+                        </div><!--//col-12-->
+                      </div><!--//row-->
+                    </div><!--//post-author-->
+                  </div><!--//content-box-->
+                </div><!--//col-->
+              </div><!--//row-->
+            </a><!--//item-link-->
+          </div><!--//item-->
+          {% endfor %}
+        </div><!--//featured-slider-->
+        <div class="slider-custom-controls d-none d-md-block">
+          <div class="prev" data-controls="prev">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="next" data-controls="next">
+            <i class="fas fa-chevron-right"></i>         
+          </div>
+        </div><!--//slider-custom-controls-->
+      </div><!--slider-container-->
+    </div><!--//featured-blog-posts-->
+  </div><!--//container-->
+</section><!--//blog-header-->

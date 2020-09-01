@@ -14,4 +14,5 @@ author:
   
 ---
 
-PT Inovação – Gateway XMPP/SIP.
+
+Consultancy and software development for PT Inovação, consisting of the implementation of an XMPP message converter component for SIP messages and the study, experimental evaluation and implementation of resource adapters for J2EE (Java 2 Enterprise Edition) technology, using the JCA specification 1.5 (Java Connector Architecture) and MDB (Message Driven Beans).
