@@ -9,7 +9,7 @@ tags: []
 author:
   login: econde
   email: 
-  display_name: Ezequiel Conde
+  display_name: Ezequiel Conde, José Paraiso
   
 ---
 Development of a collective parking meter in collaboration with GAIN.
