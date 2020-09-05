@@ -7,13 +7,12 @@ status: publish
 categories: []
 tags: []
 author:
-  login: falcao
+  login: econde
   email: 
-  display_name: Luís Falcão
+  display_name: Ezequiel Conde
   
 ---
 
-Em colaboração com a PETROTEC desenvolveu-se, em 1991, um sistema POS Out Door
-para pagamento automático de combustível em estações de serviço, sem intervenção
-do operador, e desenvolveu-se o suporte de integração de equipamento
-Schlumberger na rede MULTIBANCO
+Development in collaboration with PETROTEC, of
+a system for automatic fuel payment at service stations,
+without operator intervention.
