@@ -34,6 +34,7 @@ description: "Change log and other updates"
                   <div class="col-12 col-lg-9 pt-1">
                     <div class="name font-weight-bold">{{ post.author.display_name }}</div>
                     <div class="meta">{{ post.author.role }}</div>
+                    <div>{{ post.date | date: "%B %-d, %Y" }}</div>
                   </div><!--//col-12-->
                 </div><!--//row-->
               </div><!--//post-author-->
