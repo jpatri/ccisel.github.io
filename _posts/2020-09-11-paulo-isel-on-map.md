@@ -13,6 +13,7 @@ author:
   email: 
   display_name: Paulo Pereira
   image: palbp.jpg
+  role: Software Engineer
 ---
 
 Once again, pioneers in the software engineering landscape. =) ISEL was one of the seminal schools world wide including Kotlin in university courses. Feels good to have ISEL on Kotlin's world map. Check it out here:
