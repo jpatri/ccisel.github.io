@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section class="page-header over-curve py-4 py-md-5">
+    <div class="blog-post-content">
+        <div class="container">
+            <div class="contact-card-box p-5 shadow rounded page-tagline mb-4 h-100">
+                <h3>{{ page.title.en }}</h3>
+                <div class="section-intro">(pt: {{ page.title.pt }})</div>
+                <br>
+                <div>Professor in charge: <span class="name font-weight-bold">{{  page.professor.display_name }}</span></div>
+                <br>
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        Year: <span class="name font-weight-bold">{{  page.year }}</span>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        Semester: <span class="name font-weight-bold">{{  page.semester }}</span>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        ECTS: <span class="name font-weight-bold">{{  page.ects }}</span>
+                    </div>
+                </div>
+                <br>
+                <h4>Intended learning outcomes</h4>
+                {{ page.goals }}
+                <h4>Syllabus</h4>
+                {{ page.syllabus }}
+                <h4>Syllabus</h4>
+                {{ page.syllabus }}
+                <h4>Bibliography</h4>
+                {{ page.bibliography }}
+            </div>
+        </div>
+    </div>
+</section>
