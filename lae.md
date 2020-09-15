@@ -3,6 +3,8 @@ layout: course
 title:  
   en: Languages and Managed Runtimes
   pt: Linguagens e Ambientes de Execução
+repository: https://github.com/isel-leic-ave/
+isel: https://isel.pt/disciplinas/linguagens-e-ambientes-de-execucao-leic-pn
 year: 2nd
 semester: 2nd
 ects: 6
@@ -68,12 +70,12 @@ outcomes: |
   </p>
   <p>
     The consistency between the syllabus and the objectives of the course is as follows:
-    <ol>
-      <ul>Objective 1 is achieved through contents I and III;</ul>
-      <ul>Objective 2 is achieved through contents II, III, and IV;</ul>
-      <ul>The contents IV and V contribute to objective 3;</ul>
-      <ul>The contents V, VI and VII aim to achieve objective 4.</ul>
-    <ol>
+    <ul>
+      <li>Objective 1 is achieved through contents I and III;</li>
+      <li>Objective 2 is achieved through contents II, III, and IV;</li>
+      <li>The contents IV and V contribute to objective 3;</li>
+      <li>The contents V, VI and VII aim to achieve objective 4.</li>
+    </ul>
   <p>
 bibliography: |
   <p>
@@ -87,6 +89,7 @@ bibliography: |
   </p>
   <p>
     <em>"The Java Virtual Machine Specification"</em> Java SE 12 Edition” by Tim
-  Lindholm, Frank Yellin, Gilad Bracha, and Alex Buckley. Released February
-  2019. Publisher(s): Oracle America, Inc.
+    Lindholm, Frank Yellin, Gilad Bracha, and Alex Buckley. Released February
+    2019. Publisher(s): Oracle America, Inc.
+  </p>
 ---

@@ -12,23 +12,32 @@ layout: default
                 <div>Professor in charge: <span class="name font-weight-bold">{{  page.professor.display_name }}</span></div>
                 <br>
                 <div class="row">
-                    <div class="col-12 col-lg-3">
+                    <div class="col-12 col-lg-4">
                         Year: <span class="name font-weight-bold">{{  page.year }}</span>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div class="col-12 col-lg-4">
                         Semester: <span class="name font-weight-bold">{{  page.semester }}</span>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div class="col-12 col-lg-4">
                         ECTS: <span class="name font-weight-bold">{{  page.ects }}</span>
                     </div>
                 </div>
                 <br>
-                <h4>Intended learning outcomes</h4>
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        Repository <a class="github" href="{{ page.repository }}" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <a href="{{ page.isel }}" target="_blank">Institutional information at ISEL</a>
+                    </div>
+                </div>
+                <br>
+                <h4>Goals</h4>
                 {{ page.goals }}
                 <h4>Syllabus</h4>
                 {{ page.syllabus }}
-                <h4>Syllabus</h4>
-                {{ page.syllabus }}
+                <h4>Outcomes</h4>
+                {{ page.outcomes }}
                 <h4>Bibliography</h4>
                 {{ page.bibliography }}
             </div>
