@@ -1,6 +1,6 @@
 ---
 layout: course
-title:  
+title:
   en: Languages and Managed Runtimes
   pt: Linguagens e Ambientes de Execução
 repository: https://github.com/isel-leic-ave/
@@ -8,29 +8,14 @@ isel: https://isel.pt/disciplinas/linguagens-e-ambientes-de-execucao-leic-pn
 year: 2nd
 semester: 2nd
 ects: 6
-professor: 
+professor:
   display_name: Miguel Gamboa de Carvalho
 goals: |
   A student completing this course unit should be able to:
-  <ol>
-    <li>
-      Compare and use different common constructs in modern programming
-      languages, mapping different programming paradigms, and their support in
-      the execution environment.
-    </li>
-    <li>
-      Understand the main constituents of managed runtimes, and know how to
-      compare different type systems approaches in these environments.
-    </li>
-    <li>
-      Use runtime metadata (reflection) to examine types and use metaprogramming
-      to analyze and transform programs at runtime.
-    </li>
-    <li>
-      Analyze the performance of managed programs and efficiently use automatic
-      memory management support (garbage collection).
-    </li>
-  </ol>
+  - Compare and use different common constructs in modern programming languages, mapping different programming paradigms, and their support in the execution environment.
+  - Understand the main constituents of managed runtimes, and know how to compare different type systems approaches in these environments.
+  - Use runtime metadata (reflection) to examine types and use metaprogramming to analyze and transform programs at runtime.
+  - Analyze the performance of managed programs and efficiently use automatic memory management support (garbage collection).
 syllabus: |
   <ol>
     <li>
