@@ -6,40 +6,51 @@ layout: default
     <div class="blog-post-content">
         <div class="container">
             <div class="contact-card-box p-5 shadow rounded page-tagline mb-4 h-100">
-                <h3>{{ page.title.en }}</h3>
-                <div class="section-intro">(pt: {{ page.title.pt }})</div>
+                {% assign size = page.url | size | minus: 4 %}
+                {% if page.lang != 'pt' %}
+                    <h3>{{ layout.title.en }}</h3>
+                    <div class="section-intro">(pt: <a href="{{ page.url | slice: 0, size }}-pt">{{ layout.title.pt }}</a>)</div>
+                {% else %}
+                    <h3>{{ layout.title.pt }}</h3>
+                    <div class="section-intro">(en: <a href="{{ page.url | slice: 0, size }}-en">{{ layout.title.en }}</a>)</div>
+                {% endif %}
                 <br>
-                <div>Professor in charge: <span class="name font-weight-bold">{{  page.professor.display_name }}</span></div>
+                <div>Professor: <span class="name font-weight-bold">{{  layout.professor.display_name }}</span></div>
                 <br>
                 <div class="row">
                     <div class="col-12 col-lg-4">
-                        Year: <span class="name font-weight-bold">{{  page.year }}</span>
+                        {% if page.lang != 'pt' %}Year{% else %}Ano{% endif %}: 
+                        <span class="name font-weight-bold">{{  layout.year }}</span>
                     </div>
                     <div class="col-12 col-lg-4">
-                        Semester: <span class="name font-weight-bold">{{  page.semester }}</span>
+                        {% if page.lang != 'pt' %}Semester{% else %}Semestre{% endif %}:
+                        <span class="name font-weight-bold">{{  layout.semester }}</span>
                     </div>
                     <div class="col-12 col-lg-4">
-                        ECTS: <span class="name font-weight-bold">{{  page.ects }}</span>
+                        ECTS: <span class="name font-weight-bold">{{  layout.ects }}</span>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col-12 col-lg-4">
-                        Repository <a class="github" href="{{ page.repository }}" target="_blank"><i class="fab fa-github"></i></a>
+                        {% if page.lang != 'pt' %}Repository{% else %}Repositório{% endif %}
+                        <a class="github" href="{{ layout.repository }}" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                     <div class="col-12 col-lg-4">
-                        <a href="{{ page.isel }}" target="_blank">Institutional information at ISEL</a>
+                        <a href="{{ layout.isel }}" target="_blank">
+                            {% if page.lang != 'pt' %}Institutional information at ISEL{% else %}Informação Institucional no ISEL{% endif %}
+                        </a>
                     </div>
                 </div>
                 <br>
-                <h4>Goals</h4>
+                <h4>{% if page.lang != 'pt' %}Goals{% else %}Objectivos{% endif %}</h4>
                 {{ page.goals | markdownify }}
-                <h4>Syllabus</h4>
-                {{ page.syllabus }}
-                <h4>Outcomes</h4>
-                {{ page.outcomes }}
-                <h4>Bibliography</h4>
-                {{ page.bibliography }}
+                <h4>{% if page.lang != 'pt' %}Syllabus{% else %}Programa{% endif %}</h4>
+                {{ page.syllabus  | markdownify }}
+                <h4>{% if page.lang != 'pt' %}Outcomes{% else %}Resultados{% endif %}</h4>
+                {{ page.outcomes  | markdownify }}
+                <h4>{% if page.lang != 'pt' %}Bibliography{% else %}Bibliografia{% endif %}</h4></h4>
+                {{ layout.bibliography  | markdownify }}
             </div>
         </div>
     </div>
