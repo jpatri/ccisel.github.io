@@ -5,8 +5,8 @@ title:
   pt: Linguagens e Ambientes de Execução
 repository: https://github.com/isel-leic-ave/
 isel: https://isel.pt/disciplinas/linguagens-e-ambientes-de-execucao-leic-pn
-year: 2nd
-semester: 2nd
+year: 2
+semester: 2
 ects: 6
 professor:
   display_name: Miguel Gamboa de Carvalho
