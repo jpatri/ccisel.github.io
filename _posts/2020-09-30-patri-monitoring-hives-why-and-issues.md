@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Monitoring hives, why and issues
+title: Monitoring hives? Why and issues.
 date: 2020-09-30
 type: post
 published: false
 status: publish
 category: Embedded systems
-<!---tags: [WebFluid]--->
+tags: [TrackBees]
 author:
   login: jpatri
   email: jpatri@cc.isel.ipl.pt
@@ -15,23 +15,23 @@ author:
   role: Software Developer
 ---
 
-This is the first post of TrackBees project. This is a personal project and started in 2012. This post explain the motivation to do this work and the issues present in the solution.
+What challenges face an anti-theft system and GPS tracker for beehives? Power supply? Networking? What else? The CCISEL Engineer João Pedro Patriarca is the author and developer of the TrackBees project started in 2012 that answers those and other questions. Since then the TrackBees has been enhanced in different releases with several innovations that will be explained in this series of posts. This is the first post describing the motivation and the main issues faced by this project.
 
 ## Motivation
 
-It started with a honey production project, where several beehives were stolen from apiaries several times. The main loss was not only hives and honey, but, mainly, the honey producers, the bees.  
-This took to an idea of to create a device that could detect, sinalize and recover stolen hives.
+The main loss of stolen beehives is not only the hives and honey, but, mainly, the honey workers, the bees.
+This led to the idea of creating a device that could detect, signalize and recover stolen hives.
 
 ## Issues
 
-There are some issues to take into account when designing a solution to this problem, mainly because the apiaries are installed remotely:
+There are some issues to consider when designing a solution to this problem, mainly because the apiaries are installed remotely:
 
 * Normally, there is no permanent power supply;
-* Dissimulation of the presence of an electronic device;
+* The hives must not evidentiate the presence of an electronic device;
 * The communications infrastructure are limited;
 * Determine the position in open space.
 
-Based on the above issues, it was defined the first device characteristics:
+Based on the above issues, we have defined the first device characteristics:
 
 * Must be powered by battery;
 * The battery charge should last for months; This specificity became the main focus in designing the solution;
