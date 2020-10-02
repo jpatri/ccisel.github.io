@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Monitoring hives? Why and issues.
-date: 2020-09-30
+image: 2020-09-30-patri-monitoring-hives-why-and-issues-front.jpg
+date: 2020-10-02
 type: post
-published: false
+published: true
 status: publish
 category: Embedded systems
 tags: [TrackBees]
@@ -15,7 +16,7 @@ author:
   role: Software Developer
 ---
 
-What challenges face an anti-theft system and GPS tracker for beehives? Power supply? Networking? What else? The CCISEL Engineer João Pedro Patriarca is the author and developer of the TrackBees project started in 2012 that answers those and other questions. Since then the TrackBees has been enhanced in different releases with several innovations that will be explained in this series of posts. This is the first post describing the motivation and the main issues faced by this project.
+What challenges faces an anti-theft system and GPS tracker for beehives? Power supply? Networking? What else? The CCISEL Engineer João Pedro Patriarca is the author and developer of the TrackBees project started in 2012, which answers those and other questions. Since then, the TrackBees has been enhanced in different releases with several innovations that will be explained in this series of posts. This is the first post describing the motivation and the main issues tackled by this project.
 
 ## Motivation
 
@@ -44,4 +45,4 @@ This was the release of 2014. The image shows the front and the rear of the same
 <img src="/assets/blog/2020-09-30-patri-monitoring-hives-why-and-issues-front.jpg" width="720px">
 
 
-Next post: battery charge should last for months
+**Next post**: battery charge should last for months.
