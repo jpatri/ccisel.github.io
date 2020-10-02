@@ -20,6 +20,8 @@ Open position for a research fellowship MsC student to integrate the WebFluid
 project team, with a reward of 3 x 798 euros/month. More information here:
 [Anúncio para atribuição de uma Bolsa de Investigação](https://www.ipl.pt/servicos/recursos-humanos/anuncio-para-atribuicao-de-uma-bolsa-de-investigacao-refa-6).
 
+**Application deadline is October 9th, 2020** (friday).
+
 The researcher will participate on the following activities (not limited to):
 
 1. Benchmark research and customization for template engines in a Java
