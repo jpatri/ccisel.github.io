@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monitoring hives? Why and issues.
-image: 2020-09-30-patri-monitoring-hives-why-and-issues-front.jpg
+image: 2020-09-30-patri-monitoring-hives-why-and-issues-front.png
 date: 2020-10-02
 type: post
 published: true
