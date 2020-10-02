@@ -39,7 +39,7 @@ Based on the above issues, we have defined the first device characteristics:
 * Integrates a GSM module for communications;
 * Integrates a GPS module to determine current position.
 
-This was the release of 2014. The image shows the front and the rear of the same board. Wait for next posts to see further details and improvements!
+This was the release of 2014. Wait for next posts to see further details and improvements!
 
 <img src="/assets/blog/2020-09-30-patri-monitoring-hives-why-and-issues-front.png" width="720px">
 
