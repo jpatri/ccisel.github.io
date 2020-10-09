@@ -24,3 +24,4 @@ outcomes: |
   A exposição dos conteúdos é acompanhada de considerações acerca de boas práticas (ponto 8) concretizadas em casos reais. O uso de casos reais e o estudo em profundidade da plataforma são coerentes com o segundo objetivo de aprendizagem. 
   
   Os restantes pontos (2, 5, 6 e 7) viabilizam a criação de soluções completas estando, portanto, em coerência com o terceiro objetivo de aprendizagem.
+---
