@@ -1,6 +1,6 @@
 ---
 layout: academia/leic/psc
-lang: pt
+lang: en
 goals: |
   Students who successfully complete this course unit will be able to:
   1. Understand the execution model of programs written in high-level languages in real computer systems;
