@@ -11,7 +11,7 @@ ects: 6
 professor:
   display_name: Paulo Pereira
 bibliography: |
-  Selected articles and sewlected parts of the reference documentation of the targeted platform (currently Android)
+  [_Android reference documentation](https://developer.android.com/docs)
 
   _"Learning Android, 2nd Edition"_
   by M. Nakamura, M. Gargenta. Released 2014.
