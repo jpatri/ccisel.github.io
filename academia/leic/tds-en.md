@@ -14,8 +14,7 @@ syllabus: |
       Basic principles of type driven development: encapsulation and contract specification and its invariants
     </li>
     <li>
-      Basic principles of test-driven development: explicit specification of dependencies and
-	  their resolution through dependency injection.
+      Basic principles of test-driven development: explicit specification of dependencies and their resolution through dependency injection.
     </li>
     <li>
       Function composition: high order functions: currying and partial application.
@@ -34,10 +33,8 @@ syllabus: |
     </li>
   <ol>
 outcomes: |
-    This curricular unit introduces the fundamental concepts and the vocabulary of the paradigms and
-	principles used in software development.
+    This curricular unit introduces the fundamental concepts and the vocabulary of the paradigms and principles used in software development.
 
     Goals 1, 2 and 3 are achieved through items I to VII of the syllabus.
-    The development of programs during practical sessions makes it possible
-	to achieve goals 4 and 5 of learning outcomes.
+    The development of programs during practical sessions makes it possible to achieve goals 4 and 5 of learning outcomes.
 ---
