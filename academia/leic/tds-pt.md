@@ -12,12 +12,10 @@ goals: |
 syllabus: |
   <ol type="I">
     <li>
-      Princípios elementares de type driven development: encapsulamento e especificação de contratos
-	  e invariantes.
+      Princípios elementares de type driven development: encapsulamento e especificação de contratos e invariantes.
     </li>
     <li>
-      Princípios elementares de test driven development: especificação explícita das dependências
-	  e respetiva resolução através de injeção.
+      Princípios elementares de test driven development: especificação explícita das dependências e respetiva resolução através de injeção.
     </li>
     <li>
       Composição de funções: high order functions, currying e aplicação parcial.
