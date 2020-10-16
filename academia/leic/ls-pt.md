@@ -15,5 +15,4 @@ outcomes: |
   Esta unidade curricular tem como primeiro objetivo a consolidação dos conceitos e práticas fornecidos aos estudantes em unidades curriculares anteriores, nomeadamente Programação Orientada por Objetos, Algoritmos e Estruturas de Dados, e Sistemas de Informação I.
   Assim, o ponto 1. dos objetivos é assegurado através da utilização e aprofundamento de conhecimentos fornecidos nestas unidades curriculares anteriores.
   O segundo propósito desta unidade curricular é dotar os estudantes das competências necessários ao trabalho em grupo (objetivo 2) e à utilização adequada de métodos e ferramentas utilizadas no desenvolvimento profissional de software (objetivo 3). Os conteúdos 2, 3 e 4, bem como a sua utilização aplicada no contexto do desenvolvimento dum projeto, contribuem para estes objetivos.
-  Esta unidade curricular identifica ....
 ---
