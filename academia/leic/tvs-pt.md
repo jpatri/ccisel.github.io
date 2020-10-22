@@ -43,4 +43,5 @@ outcomes: |
    na realização dos trabalhos de grupo.
    São efetuadas aulas práticas de acompanhamento dos trabalhos de grupo, que complementam a avaliação, 
    na discussão final, da globalidade dos objetivos de aprendizagem.
+   
 ---

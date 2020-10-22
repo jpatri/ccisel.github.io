@@ -40,4 +40,5 @@ outcomes: |
     The skills listed in sections 2, 3 e 4 of the learning objectives are developed in the work group.
     Lectures are also dedicating to monitoring practical group work, complementing the evaluation of 
     overall learning outcomes on the final discussion
+
 ---
