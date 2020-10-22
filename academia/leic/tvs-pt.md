@@ -7,7 +7,7 @@ goals: |
      Compreender as diferenças entre modo de utilizador e de supervisor e o conceito e implementação de system call.
   2. Compreender os aspetos relevantes da implementação e utilização dos principais conceitos dos sistemas operativos, 
      nomeadamente os relativos à gestão de memória (física e virtual), gestão de entradas/saídas, 
-	 sistemas de ficheiros e gestão de processos e threads.
+     sistemas de ficheiros e gestão de processos e threads.
   3. Desenvolver aplicações que tiram partido da API de sistema operativos tais como Linux.
   4. Compreender e utilizar diferentes formas de virtualização, nomeadamente a virtualização de sistema 
      suportada por monitores de máquina virtual (hipervisores) e ao nível do sistema operativo (contentores).
