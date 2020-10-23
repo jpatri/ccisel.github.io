@@ -4,7 +4,7 @@ title:
   en: Systems Virtualization Techniques
   pt: Técnicas de Virtualização de Sistemas
 repository: https://github.com/isel-leic-tvs/ 
-isel: https://isel.pt/disciplinas/programacao-leic-tvs
+isel: https://isel.pt/disciplinas/tecnicas-de-virtualizacao-de-sistemas-leic-pn
 year: 3
 semester: 1
 ects: 6
