@@ -12,7 +12,8 @@ professor:
   display_name: Jorge Martins
 bibliography: |
   Andrew Tanenbaum, Modern Operating Systems, 4nd edition, Pearson, 2014. ISBN: 978-0133591620
+  <br>
   Shashank Mohan Jain, Linux Containers and Virtualization - A kernel perspective, 2018. ISBN: 978-1080299423
+  <br>
   Karl Matthias, Sean P. Kane, Docker Up & Running, 2nd edition, O'Reilly Media, 2018. ISBN: 9781492036722 (consulta)
-  
 ---

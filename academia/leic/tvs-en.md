@@ -1,5 +1,5 @@
 ---
-layout: academia/leic/so
+layout: academia/leic/tvs
 goals: |
   A student completing this course unit should be able to:
   1. Identify the key objectives of an operating system and the key components of its internal architecture

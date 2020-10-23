@@ -1,5 +1,5 @@
 ---
-layout: academia/leic/so
+layout: academia/leic/tvs
 lang: pt
 goals: |
   Os estudantes que terminam com sucesso esta unidade curricular serão capazes de: 
