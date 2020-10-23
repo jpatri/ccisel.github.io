@@ -9,10 +9,10 @@ layout: default
                 {% assign size = page.url | size | minus: 4 %}
                 {% if page.lang != 'pt' %}
                     <h3>{{ layout.title.en }}</h3>
-                    <div class="section-intro">(pt: <a href="{{ page.url | slice: 0, size }}-pt">{{ layout.title.pt }}</a>)</div>
+                    <div class="section-intro">(pt: <a href="{{ page.url | replace:'en','pt' }}">{{ layout.title.pt }}</a>)</div>
                 {% else %}
                     <h3>{{ layout.title.pt }}</h3>
-                    <div class="section-intro">(en: <a href="{{ page.url | slice: 0, size }}-en">{{ layout.title.en }}</a>)</div>
+                    <div class="section-intro">(en: <a href="{{ page.url | replace:'pt','en' }}">{{ layout.title.en }}</a>)</div>
                 {% endif %}
                 <br>
                 <div>Professor: <span class="name font-weight-bold">{{  layout.professor.display_name }}</span></div>
