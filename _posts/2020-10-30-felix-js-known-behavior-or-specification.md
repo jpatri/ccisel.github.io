@@ -27,7 +27,7 @@ const f = async () => {
     const ful = new Promise(r => setTimeout(r, 1000)); // Fullfiled after 1000 ms
     await ful;                                         // Await for ful completion
     console.log('after await');                        
-    await a;                                           // Await for rej completion
+    await rej;                                           // Await for rej completion
 }
 f().catch((err) => {                        // On resulting Promise rejection then...
     console.log(`caught: ${err}`);
