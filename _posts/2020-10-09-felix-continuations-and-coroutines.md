@@ -24,4 +24,4 @@ coroutines?
 In the following posts, CCISEL engineer Pedro Félix answered this question and
 wrote about these topics: 
 [coroutines](https://labs.pedrofelix.org/guides/kotlin/coroutines/) and
-[Suspending functions, coroutines and state machines](https://labs.pedrofelix.org/guides/kotlin/coroutines/coroutines-and-state-machines.)
+[Suspending functions, coroutines and state machines](https://labs.pedrofelix.org/guides/kotlin/coroutines/coroutines-and-state-machines)
