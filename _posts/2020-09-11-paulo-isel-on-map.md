@@ -6,7 +6,7 @@ date: 2020-09-11
 type: post
 published: true
 status: publish
-categories: Academia
+category: Academia
 tags: []
 author:
   login: palbp

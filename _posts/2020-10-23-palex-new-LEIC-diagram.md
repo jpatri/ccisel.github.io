@@ -6,7 +6,7 @@ date: 2020-10-23
 type: post
 published: true
 status: publish
-categories: Academia
+category: Academia
 tags: []
 author:
   login: palex
