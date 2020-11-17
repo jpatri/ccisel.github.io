@@ -44,5 +44,6 @@ description: "Change log and other updates"
       </div><!--//col-->
       {% endfor %}
     </div><!--//row-->
+    <div class="text-center"><a href="/archive" class="btn-gradient btn">More...</a></div>
   </div><!--//container-->
 </section><!--//blog-list-section-->
