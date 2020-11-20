@@ -1,6 +1,6 @@
 ---
 layout: post
-title: After 20 years, still Dotnet events and delegates
+title: 20 years after, still Dotnet events and delegates
 image: 2020-11-20-miguel-events-and-delegates.png
 date: 2020-11-20
 type: post
