@@ -25,7 +25,7 @@ While the instantaneous consumption of subsystem 1 remains stable and correspond
 
 Under release 2014, the solution has reached a state of hardware and control application that has enabled testing to validate system autonomy and overall consumption. The 2014 release corresponds to the board with version v0.2. The figure below presents two photos of version v0.2, one from the front side and, another, from the back side. As a prototype version, most of the components are mounted in small boards connected to a base board. The components were transferred to the base board as the components were stabilized in the solution.
 
-![Front side of v0.2 board](/assets/blog/2020-11-29-patri-monitoring-hives-tests-on-version-2014-v02-frontside.png "v0.2 front side") ![Back side of v0.2 board](/assets/blog/2020-11-29-patri-monitoring-hives-tests-on-version-2014-v02-backside.png "v0.2 back side")
+![Front side of v0.2 board](/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-v02-frontside.png "v0.2 front side") ![Back side of v0.2 board](/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-v02-backside.png "v0.2 back side")
 
 Subsystem 1 consists of the following components/modules:
 
