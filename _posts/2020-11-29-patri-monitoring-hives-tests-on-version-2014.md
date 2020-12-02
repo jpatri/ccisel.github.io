@@ -66,7 +66,7 @@ The program remains running until the battery drains completely. Geographic coor
 The table below shows the values collected by the program corresponding to the lowest and highest battery charge value, the total number of records on the cellular network successfully and without success, and the duration of the test. The values shown as battery charge in the table and in the next graph correspond to the values read by the ADC (Analog to Digital Converter) with 12 bits of precision through a voltage divider to the battery terminals. For example, the value 3600 corresponds to 4.2V, situation of a fully charged battery and the value 2900 corresponds to 3.4V, situation of a battery at the end of charge.
 
 | Battery  | Bat min     | Bat max     | OK rec  | KO rec | Time  |
-|----------|-------------|-------------|---------|--------|-------|
+|:--------:|:-----------:|:-----------:|:-------:|:------:|:-----:|
 | 1Ah, 20C | 2910        | 3604        | 1340    | 59     | 9h46  |
 
 <!--
