@@ -113,7 +113,7 @@ During the performance of this test, unforeseen events arose that compromised th
 
 The third test presented in this post validates the behavior of the equipment in trace mode. The equipment was put into operation on a trip from Algarve to Lisbon. The figure below shows the route made based on the geographical positions produced by the equipment in tracking mode and recorded on a memory card.
 
-![Trace from Algarve to Lisbon base on acquired positions](/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-Trace_Algarve_Lisboa.png "Trace from Algarve to Lisbon">
+![Trace from Algarve to Lisbon base on acquired positions](/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-Trace_Algarve_Lisboa.png "Trace from Algarve to Lisbon")
 
 The image was produced through the GPSVisualizer application. This type of applications that draw paths on maps based on geographical positions typically receive a file in GPX (GPS Exchange Format). The file was generated based on the recorded geographic coordinates.
 
