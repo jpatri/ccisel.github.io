@@ -25,8 +25,7 @@ While the instantaneous consumption of subsystem 1 remains stable and correspond
 
 Under release 2014, the solution has reached a state of hardware and control application that has enabled testing to validate system autonomy and overall consumption. The 2014 release corresponds to the board with version v0.2. The figure below presents two photos of version v0.2, one from the front side and, another, from the back side. As a prototype version, most of the components are mounted in small boards connected to a base board. The components were transferred to the base board as the components were stabilized in the solution.
 
-<img src="/assets/blog/2020-11-29-patri-monitoring-hives-tests-on-version-2014-v02-frontside.png" width="350px">
-<img src="/assets/blog/2020-11-29-patri-monitoring-hives-tests-on-version-2014-v02-backside.png" width="350px">
+![Front side of v0.2 board](/assets/blog/2020-11-29-patri-monitoring-hives-tests-on-version-2014-v02-frontside.png "v0.2 front side") ![Back side of v0.2 board](/assets/blog/2020-11-29-patri-monitoring-hives-tests-on-version-2014-v02-backside.png "v0.2 back side")
 
 Subsystem 1 consists of the following components/modules:
 
@@ -104,7 +103,7 @@ It was verified through logs recorded on memory card in the equipment that the a
 
 For the geographical positions provided by the GNSS module, no position exceeded more than 50 metres in relation to the installation position of the equipment. The figure below shows 40 points flagged on the map corresponding to acquisitions of geographical positions and the position of the equipment under test.
 
-<img src="/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-40-GNSS-points-on-map.png" width="350px">
+![Acquired positions on map](/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-40-GNSS-points-on-map.png "40 positions on map")
 
 Based on the results of this test it has been determined that a geographical position provided by the equipment with a difference of 100 meters relative to its installation position represents that the equipment is being or has been moved from its installation position.
 
@@ -114,7 +113,7 @@ During the performance of this test, unforeseen events arose that compromised th
 
 The third test presented in this post validates the behavior of the equipment in trace mode. The equipment was put into operation on a trip from Algarve to Lisbon. The figure below shows the route made based on the geographical positions produced by the equipment in tracking mode and recorded on a memory card.
 
-<img src="/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-Trace_Algarve_Lisboa.png" width="350px">
+![Trace from Algarve to Lisbon base on acquired positions](/assets/blog/2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-Trace_Algarve_Lisboa.png "Trace from Algarve to Lisbon">
 
 The image was produced through the GPSVisualizer application. This type of applications that draw paths on maps based on geographical positions typically receive a file in GPX (GPS Exchange Format). The file was generated based on the recorded geographic coordinates.
 
