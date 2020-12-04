@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Tests on version 2014 (v0.2)
+image: 2020-11-29-patri-monitoring-hives-post3-tests-on-version-2014-v02-frontside.png
 date: 2020-11-29
 type: post
-published: false
+published: true
 status: publish
 category: Embedded systems
 tags: [TrackBees]
