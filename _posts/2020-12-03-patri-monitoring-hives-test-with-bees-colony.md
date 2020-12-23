@@ -4,7 +4,7 @@ title: Test in real environment
 image: 2020-12-03-patri-monitoring-hives-post4-test-with-bees-colony-frame-w-device.png
 date: 2020-12-20
 type: post
-published: false
+published: true
 status: publish
 category: Embedded systems
 tags: [TrackBees]
