@@ -22,12 +22,6 @@ The status reached in the TrackBees equipment allowed us to perform a test in a 
 
 The TrackBees equipment in version v0.2 was subjected to [several tests](https://cc.isel.pt/embedded%20systems/2020/11/29/patri-monitoring-hives-tests-on-version-2014/) with the goal of assessing the operability of the equipment. However, all these tests were performed in a managed environment, that is, they were either performed in the laboratory or outside but in an empty hive. Therefore, there were a number of unanswered questions, such as: would installation in a hive compromise bees activity? Would communications in a rural environment be compromised? Would the reading of the geographical position be affected by the fact that the equipment is installed inside the hive? It became mandatory to test the operability of the equipment in a real environment. And so it happened... on a weekend, visiting an apiary, the equipment was placed inside a hive with bees.
 
-## Tests
-
-The main goal of the tests was to perceive the impact that the different modes of operation of the system have on the overall consumption of the system. Operating modes correspond to surveillance, monitoring and tracking mode. In surveillance mode only subsystem 1 remains powered and in monitoring and tracking modes the two subsystems are powered. In addition to the main goal, the tests also allowed to determine the error associated with geographic coordinate readings, the battery charge value that compromises the operation of the system and to validate the behavior of the equipment in a tracking process.
-
-This post presents three tests of the set of tests performed. These tests were performed with the hardware in version v0.2. For each test, we present the conditions under which the test was performed, the concrete objective of the test and the results analysis. Some tests included software development related to their implementation.
-
 ## Preparation
 
 A [traditional hive](https://en.wikipedia.org/wiki/Langstroth_hive) consists of one, two, or three boxes depending on the size of the bee colony and on the honey production. The boxes are stacked vertically, and inside each box is installed a set of eight to ten frames. Typically, in the lowest box lies the queen and the brood and, in the boxes above, is where honey is produced and stored.
@@ -35,7 +29,6 @@ A [traditional hive](https://en.wikipedia.org/wiki/Langstroth_hive) consists of 
 For the test, a frame was prepared to contain the equipment. The preparation consisted of removing the wire from the frame used to fix the beeswax, closing the frame with two panels to avoid direct contact of the bees with the equipment and fixing the equipment on one of the panels. The figure below illustrates the frame prepared with the equipment fixed.
 
 ![Frame with Trackbees device](/assets/blog/2020-12-03-patri-monitoring-hives-post4-test-with-bees-colony-frame-w-device.png "Frame with Trackbees device")
-
 
 ## Experience
 
