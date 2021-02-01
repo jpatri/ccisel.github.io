@@ -32,7 +32,7 @@ The first TrackBees board to have integrated a BLE module was the V0.3 version, 
 
 [TrackBees solution consists of two subsystems](https://cc.isel.pt/embedded%20systems/2020/10/16/patri-monitoring-hives-battery-charge/) independently powered. The BLE module power is configured by a mechanical switch for subsystem one or subsystem two.
 
-In subsystem one, the BLE module remains powered and, like the accelerometer and real time clock (RTC), may establish subsystem two power supply. In the case of the BLE module, the power of subsystem two is established when a connection is made with the paired phone.
+In subsystem one, the BLE module remains powered and, like the accelerometer and real time clock (RTC), may establish power supply of subsystem two. In the case of the BLE module, the power of subsystem two is established when a connection is made with the paired phone.
 
 When powered into subsystem two, it is a component that plays a decisive role in interpreting the power activation of subsystem two: even if power was caused by the RTC or accelerometer, it corresponds to a configuration session if, during the control system initiation, a connection is established with the paired phone, otherwise it corresponds to a monitoring or a theft detection session.
 
@@ -48,9 +48,9 @@ Initial pairing ensures that in the future the equipment only establishes Blueto
 
 The data received by SMS of a monitoring cycle corresponds so far to geographic position, battery charge, SIM card balance and temperature. This data is stored in the App in a database and presented by category. The geographical positions are displayed on a map and the other information is displayed in chart form (credits for [MPAndroidChart](https://weeklycoding.com/mpandroidchart-documentation/)). At the time of writing this post, I have no examples of these screens.
 
-The following images illustrate the current version of the App main page (with no paired equipment). The main page is divided into different sections, namely, identification of the equipment, current state, settings edition zone, contacts and history.
+The following images illustrate the current version of the App main page (with no paired equipment). The main page is divided into different sections, namely, identification of the equipment, current state, settings edition area, contacts and history.
 
-![Android App main page - Id and current state](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main1.png "Android App main page - Id and current state")![Android App main page - Settings edition area](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main2.png "Android App main page - Settings edition area")![Android App main page - Contacts and history](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main3.png "Android App main page  - Contacts and history")
+![Android App main page - Id and current state](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main1.png "Android App main page - Id and current state")  ![Android App main page - Settings edition area](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main2.png "Android App main page - Settings edition area")  ![Android App main page - Contacts and history](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main3.png "Android App main page  - Contacts and history")
 <!--<img src="/assets/blog/2020-12-03-patri-monitoring-hives-post4-test-with-bees-colony-v06.png" width="350px">-->
 
 The Android App lets you configure several equipment settings. These may be done offline and become pending until they are synced via bluetooth to the equipment. Android App allows you to:
@@ -63,7 +63,7 @@ The ability to configure sensor activation, namely, the accelerometer, is of gre
 
 The images below display the views to inspect and edit monitoring, tracking, and surveillance settings.
 
-![Monitorization screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png "Monitorization screen")![Tracking screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png "Tracking screen")![Surveillance screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png "Surveillance screen")
+![Monitorization screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png "Monitorization screen")  ![Tracking screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png "Tracking screen")  ![Surveillance screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png "Surveillance screen")
 
 At the monitoring level you may configure:
 
