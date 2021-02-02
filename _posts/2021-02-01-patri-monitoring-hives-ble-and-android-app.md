@@ -28,7 +28,13 @@ This technology has been selected because it is present in most smartphones, com
 
 The first TrackBees board to have integrated a BLE module was the V0.3 version, designed in August 2015. It used the [BLE112 module](https://www.silabs.com/wireless/bluetooth/bluegiga-low-energy-legacy-modules/device.ble112) from Silicon Labs (at the time, that module implemented the BLE4.0 specification). From version V0.8 (October 2017) to the last developed version has been used the [HM-10 module](http://jnhuamao.cn/bluetooth.asp?id=1) from Jinan Huamao Technology. The figures below present two versions, V0.4 and V0.8, each one with their respective BLE module highlighted (for illustration purposes, the microcontroller, GSM and GNSS modules are not mounted).
 
-![Trackbees v0.4 board](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.4.png "Trackbees v0.4 board")![Trackbees v0.8 board](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.8.png "Trackbees v0.8 board")
+<table>
+<tr>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.4.png" width="200px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.8.png" width="200px"></td>
+</tr>
+</table>
+<!--![Trackbees v0.4 board](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.4.png "Trackbees v0.4 board")![Trackbees v0.8 board](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.8.png "Trackbees v0.8 board")-->
 
 [TrackBees solution consists of two subsystems](https://cc.isel.pt/embedded%20systems/2020/10/16/patri-monitoring-hives-battery-charge/) independently powered. The BLE module power is configured by a mechanical switch for subsystem one or subsystem two.
 
@@ -50,7 +56,16 @@ The data received by SMS of a monitoring cycle corresponds so far to geographic 
 
 The following images illustrate the current version of the App main page (with no paired equipment). The main page is divided into different sections, namely, identification of the equipment, current state, settings edition area, contacts and history.
 
+<table>
+<tr>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main1.png" width="150px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main2.png" width="150px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main3.png" width="150px"></td>
+</tr>
+</table>
+<!--
 ![Android App main page - Id and current state](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main1.png "Android App main page - Id and current state")  ![Android App main page - Settings edition area](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main2.png "Android App main page - Settings edition area")  ![Android App main page - Contacts and history](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main3.png "Android App main page  - Contacts and history")
+-->
 <!--<img src="/assets/blog/2020-12-03-patri-monitoring-hives-post4-test-with-bees-colony-v06.png" width="350px">-->
 
 The Android App lets you configure several equipment settings. These may be done offline and become pending until they are synced via bluetooth to the equipment. Android App allows you to:
@@ -63,7 +78,15 @@ The ability to configure sensor activation, namely, the accelerometer, is of gre
 
 The images below display the views to inspect and edit monitoring, tracking, and surveillance settings.
 
-![Monitorization screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png "Monitorization screen")  ![Tracking screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png "Tracking screen")  ![Surveillance screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png "Surveillance screen")
+<table>
+<tr>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png" width="150px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png" width="150px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png" width="150px"></td>
+</tr>
+</table>
+<!--![Monitorization screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png "Monitorization screen")  ![Tracking screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png "Tracking screen")  ![Surveillance screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png "Surveillance screen")
+-->
 
 At the monitoring level you may configure:
 
