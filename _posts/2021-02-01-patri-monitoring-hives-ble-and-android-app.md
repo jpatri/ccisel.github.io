@@ -30,8 +30,8 @@ The first TrackBees board to have integrated a BLE module was the V0.3 version, 
 
 <table>
 <tr>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.4.png" width="200px"></td>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.8.png" width="200px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.4.png" width="250px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.8.png" width="250px"></td>
 </tr>
 </table>
 <!--![Trackbees v0.4 board](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.4.png "Trackbees v0.4 board")![Trackbees v0.8 board](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_TB_v0.8.png "Trackbees v0.8 board")-->
@@ -58,9 +58,9 @@ The following images illustrate the current version of the App main page (with n
 
 <table>
 <tr>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main1.png" width="150px"></td>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main2.png" width="150px"></td>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main3.png" width="150px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main1.png" width="200px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main2.png" width="200px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_main3.png" width="200px"></td>
 </tr>
 </table>
 <!--
@@ -80,9 +80,9 @@ The images below display the views to inspect and edit monitoring, tracking, and
 
 <table>
 <tr>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png" width="150px"></td>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png" width="150px"></td>
-<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png" width="150px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png" width="200px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png" width="200px"></td>
+<td><img src="/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png" width="200px"></td>
 </tr>
 </table>
 <!--![Monitorization screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_mon.png "Monitorization screen")  ![Tracking screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_track.png "Tracking screen")  ![Surveillance screen](/assets/blog/2021-01-06-patri-monitoring-hives-post5-ble-and-android-app_vig.png "Surveillance screen")
