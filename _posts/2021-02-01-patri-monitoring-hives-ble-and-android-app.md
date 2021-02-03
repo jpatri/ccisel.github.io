@@ -16,7 +16,7 @@ author:
   role: Software Developer
 ---
 
-The Bluetooth Low Energy (BLE) module integration in the equipment enhanced the functional characteristics to a richer and more interesting level than those achieved in previous versions to this integration. This integration also motivated the development of an Android App.that revolutionized the interaction with the equipment. This post presents the integration result of this module in terms of hardware and the interaction achieved with Android App.
+The Bluetooth Low Energy (BLE) module integration in the equipment enhanced the functional characteristics to a richer and more interesting level than those achieved in previous versions to this integration. This integration also motivated the development of an Android App that revolutionized the interaction with the equipment. This post presents the integration result of this module in terms of hardware and the interaction achieved with Android App.
 
 ## Motivation
 
